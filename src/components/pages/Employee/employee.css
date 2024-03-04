@@ -1,0 +1,116 @@
+.form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  margin : 40px auto;
+  height: 70vh;
+}
+
+.formInput{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.formItem{
+  margin-top: 1.4rem !important;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.7rem;
+}
+
+.formInput{
+  margin-top: 0.7rem;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.itemSelect{
+  border: none;
+  height: 2.8rem;
+  border-radius: 5px;
+  width: 15rem;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+}
+
+.flexContainer{
+  margin-top: 1.3rem;
+  display: flex;
+  gap: 2rem;
+  
+}
+
+.containerItem{
+  width: 15rem;
+
+}
+
+label{
+  font-size: 2em;
+}
+
+.inputSalary{
+  font-size: 1.8rem;
+  bottom: 2px solid #ccc;
+  border-left: 0;
+  padding: 0;
+  width: 20%;
+  color: #999;
+  border-radius: 0 7px 7px 0;
+}
+
+.inputSalary:focus{
+  outline: 0;
+}
+
+.currency{
+  color: #999;
+  display: block;
+  margin-bottom: 0.7rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.5em;
+}
+
+.salary{
+  display: flex;
+  justify-content: flex-start;
+}
+
+@media only screen and (max-width: 600px) {
+  .form{
+    margin-top: 15px;
+  }
+
+  .flexContainer{
+    flex-direction: column;
+    font-size: 1.7rem;
+    margin-bottom: 20px;
+  }
+
+  .formItem{
+    font-size: 1rem;
+  }
+
+  .formInput{
+    padding-left:20px;
+    padding-right: 20px;
+  }
+  label{
+    font-size: 1.7rem;
+  }
+
+  .itemSelect{
+    margin-top: 7px;
+    height: 2.5rem;
+  }
+}
+
+

@@ -1,0 +1,87 @@
+.search-bar input{
+  width: 80%;
+  height: 1.5rem;
+  border-radius: 5px;
+  padding: 5px;
+  font-size: 1.3rem;
+}
+
+table ,th,td{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.breadcrumbs{
+  display: flex;
+}
+
+.breadcrumbs .slash{
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+table .head{
+  font-size: 1.6rem;
+  color: white;
+  background-color: rgb(31, 35, 40);
+  font-weight: 700;
+}
+
+table .title{
+  padding: 7px;
+}
+
+.tableBody{
+  font-size: 1.4rem;
+  background-color: white;
+  padding: 5px;
+}
+
+.addDelete{
+  display: flex;
+
+}
+.add{
+  height: 90px;
+  width: 200px;
+  margin-top: 7rem;
+  margin-left: 20em;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap:1.2rem;
+  border: 1.5px solid green;
+  border-radius: 3px;
+}
+
+.addIcon{
+  margin-left: 1.5rem;
+  color: green;
+}
+
+h4{
+  color: green;
+  font-size: 1.3rem;
+}
+
+.delete{
+  height: 90px;
+  width: 200px;
+  margin-top: 7rem;
+  margin-left: 20em;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  gap:1.2rem;
+  border: 1.5px solid red;
+  border-radius: 3px;
+}
+
+.deleteIcon{
+  margin-left: 1.5rem;
+  color: red;
+}
+
+.del{
+  color: red;
+}

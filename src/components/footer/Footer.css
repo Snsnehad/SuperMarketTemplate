@@ -1,0 +1,55 @@
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 25px;
+  background-color: 	#A9A9A9;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.logo{
+  display: flex;
+  gap: 1.6rem;
+  margin-left: 10px;
+}
+
+.company-detail{
+  display: flex;
+  gap: 0.4em;
+  align-items: center;
+  font-size: 1.2rem;
+  font-weight: 300 ;
+}
+
+.employee_table{
+  font-size: 1.2rem;
+  text-decoration: underline;
+  font-weight: 300;
+}
+
+.product_table{
+  text-decoration: underline;
+}
+
+@media only screen and (max-width: 600px) {
+  .footer{
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+    margin-top: 3rem;
+  }
+
+  .company-detail{
+    padding: 5px;
+  }
+  .employee_table{
+    padding: 5px;
+    margin-left: 3px;
+  }
+
+  .product_table{
+    padding: 5px;
+    margin-left: 1.7rem;
+  }
+}

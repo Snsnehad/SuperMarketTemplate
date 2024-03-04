@@ -1,0 +1,58 @@
+.navBar{
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(31, 35, 40);
+  height: 4rem;
+  /* align-items: center; */
+}
+body{
+  overflow-x: hidden;
+}
+.logo{
+  margin: 0.7rem 0.7rem 0.4rem 1.5rem;
+  display: block !important;
+}
+
+.yl{
+  margin-bottom: 1rem;
+  color:rgb(237, 237, 74);
+}
+
+.wh{
+  color:white
+}
+
+.menu{
+  /* margin-top: 5px;
+  margin-right: 5px; */
+  margin:  0.9rem 0.9rem 0.6rem 1.5rem;
+  height: 2rem;
+  width: 2rem;
+  border: 1px solid #555;
+  cursor: pointer;
+}
+
+.menuIcon{
+  margin-left: 3.8px;
+  margin-top: 3.8px;
+  display: flex;
+  align-items: center;
+  color:gray;
+}
+
+.dropdownMenu {
+  width: 100vw;
+  height: 90px;
+  padding: 20px;
+  font-size: 1.5rem;
+  background-color: black;
+  display: flex;
+  flex-direction: column;
+  position: absolute; /* or position: fixed; depending on your layout */
+  left: 0;
+}
+
+.list {
+  color: white;
+  text-decoration: none;
+}
